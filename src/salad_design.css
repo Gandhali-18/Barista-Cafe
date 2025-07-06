@@ -1,0 +1,55 @@
+.Salad {
+  width: 20%;
+  height: 30%;
+  background-color: rgb(237, 233, 233);
+  margin: 1%;
+}
+.Salad img {
+  width: 100%;
+}
+.Salad h5 {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.Salad h2 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  padding: 5px;
+}
+
+.Fresh {
+  display: flex;
+  justify-content: left;
+  margin: 3%;
+  font-family: "Poppins", sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+.Salad button {
+  background-color: rgb(227, 48, 48);
+  color: white;
+  padding: 8px 10px;
+  font-weight: 600;
+  border: none;
+  margin-left: 40%;
+  margin-bottom: 2%;
+}
+
+span,
+.add:hover {
+  padding: 10px;
+  color: red;
+}
+
+.add:hover {
+  background-color: white;
+}
+
+
