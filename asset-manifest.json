@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Barista-Cafe/static/css/main.32b92fce.css",
+    "main.js": "/Barista-Cafe/static/js/main.3a4fa607.js",
+    "static/js/453.e509b6c3.chunk.js": "/Barista-Cafe/static/js/453.e509b6c3.chunk.js",
+    "static/media/cook.jpg": "/Barista-Cafe/static/media/cook.e251c8589b00f4371d19.jpg",
+    "static/media/cake (2).jpg": "/Barista-Cafe/static/media/cake (2).c1b98fe61feab5589131.jpg",
+    "static/media/sandwich.jpg": "/Barista-Cafe/static/media/sandwich.22ea596b00cc8b00831b.jpg",
+    "static/media/moh.jpg": "/Barista-Cafe/static/media/moh.d960c2209fa4c0735773.jpg",
+    "static/media/b5f6a54c-ce6f-4e38-a10e-f007f4636e73-removebg-preview.png": "/Barista-Cafe/static/media/b5f6a54c-ce6f-4e38-a10e-f007f4636e73-removebg-preview.1658de2661cd3fa8b7fd.png",
+    "static/media/pizza.jpeg": "/Barista-Cafe/static/media/pizza.7ea05d1f94679ed17d03.jpeg",
+    "static/media/salad.jpeg": "/Barista-Cafe/static/media/salad.e87264e61222318e2381.jpeg",
+    "static/media/pie.jpeg": "/Barista-Cafe/static/media/pie.9b06ab01ba52a5f7c45a.jpeg",
+    "static/media/nuggets.jpeg": "/Barista-Cafe/static/media/nuggets.df69f25d5a08607040e3.jpeg",
+    "static/media/cro.jpg": "/Barista-Cafe/static/media/cro.587d3d6c4a2f19b7da8f.jpg",
+    "static/media/Cburger.jpeg": "/Barista-Cafe/static/media/Cburger.be0b9ddec515c95f21e0.jpeg",
+    "index.html": "/Barista-Cafe/index.html",
+    "main.32b92fce.css.map": "/Barista-Cafe/static/css/main.32b92fce.css.map",
+    "main.3a4fa607.js.map": "/Barista-Cafe/static/js/main.3a4fa607.js.map",
+    "453.e509b6c3.chunk.js.map": "/Barista-Cafe/static/js/453.e509b6c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32b92fce.css",
+    "static/js/main.3a4fa607.js"
+  ]
+}
