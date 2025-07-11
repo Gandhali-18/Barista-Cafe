@@ -1,0 +1,36 @@
+.map {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  gap: 2rem;
+}
+
+.frame {
+  flex:1.75;
+}
+
+.contact {
+  flex: 1;
+}
+
+.contact h1{
+    color: #FFA500;
+}
+.contact h3{
+    font-weight: 200;
+}
+.bi-telephone-fill {
+  margin-left: 10px; /* or margin-right, depending on layout */
+}
+.contact p{
+    font-size:15px;
+    margin-top: 1%;
+}
+.svg{
+    display: flex;
+}
+.svg h4{
+    margin-top: 4%;
+    font-weight: 200;
+}

@@ -11,6 +11,7 @@ import "./Side_design.css";
 import "./salad_design.css";
 import "./drink_design.css";
 import "./dessert_design.css";
+import "./ContactPage.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
