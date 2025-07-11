@@ -37,7 +37,7 @@ const Contact = () => {
           </svg>
           <h4>+91 594954845</h4>
         </div>
-        <div className="svg2">
+        <div className="SVG2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="10"
@@ -50,6 +50,7 @@ const Contact = () => {
           </svg>
           <h4>baristaMumbai@example.com</h4>
         </div>
+
       </div>
     </div> //map
   );
