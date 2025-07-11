@@ -1,14 +1,47 @@
-.component{
+.component {
   display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+.map iframe {
+  width: 100%;
+  max-width: 900px;
+  height: 600px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-details h1 {
   color: orange;
-  
+  margin-bottom: 1rem;
 }
 
-.contact-details{
- margin-left: 1%;
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.bi-telephone-fill{
-  margin  : 2% 1% 0% 1%;
+.phone svg {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
 }
 
+.phone h4 {
+  font-size: 1.2rem;
+  color: orange;
+  margin: 0;
+}
