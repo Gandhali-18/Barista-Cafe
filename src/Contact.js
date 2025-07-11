@@ -13,14 +13,16 @@ const Contact = () => {
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
-      </div>
       <div className="contact">
+      <div className="contact-details">
+
         <h1>Contact Us</h1>
         <h3>Barista - Wal College Mumbai</h3>
         <p>
           Ground Floor , Plot No 92/1 Wal College Rd,
           <br /> Gandhinagar , Pune, Maharashtra 41108
         </p>
+        <div>
         <div className="svg">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +52,7 @@ const Contact = () => {
           </svg>
           <h4>baristaMumbai@example.com</h4>
         </div>
-
+</div>//contact
       </div>
     </div> //map
   );
