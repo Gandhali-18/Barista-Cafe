@@ -12,6 +12,8 @@ import "./salad_design.css";
 import "./drink_design.css";
 import "./dessert_design.css";
 import "./ContactPage.css";
+import 'bootstrap-icons/font/bootstrap-icons.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

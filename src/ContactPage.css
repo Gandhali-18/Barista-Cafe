@@ -1,14 +1,86 @@
-.component{
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.component {
   display: flex;
   color: orange;
-  
+}
+iframe{
+  width:60vw;
+  height: 90vh;
+}
+.contact-details {
+  margin-left: 1%;
 }
 
-.contact-details{
- margin-left: 1%;
+.contact-details h1 {
+  margin-bottom: 4%;
 }
 
-.bi-telephone-fill{
-  margin  : 2% 1% 0% 1%;
+.contact-details h2 {
+  font-weight: 300;
+  color: black;
+}
+.contact-details p {
+  color: black;
+}
+.bi-telephone-fill {
+  width: 7%;
+  height: 7%;
+  color: black;
+  margin-left: 2%;
+
+}
+.bi-telephone-fill h4{
+  font-family:"Poppins", sans-serif;
+
 }
 
+.bi-envelope-fill {
+  width: 7%;
+  height: 7%;
+  color: black;
+  margin: 2% 2% 0% 2%;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.bi-envelope-fill  h4{
+    font-family:"Poppins", sans-serif;
+
+}
+.bi-envelope-fill:hover {
+  color: rgb(230, 114, 114);
+}
+
+label{
+  color: black;
+}
+input{
+  display: block;
+  width: 35vw;
+  height: 5%;
+  border:1px solid orange;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+input:focus {
+  border-color: brown;
+  outline: none;     
+}
+#ok
+{
+  width: 8vw;
+  height: 5%;
+  display: block;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+}
