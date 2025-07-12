@@ -64,12 +64,56 @@ span,
   .side-fries {
   width: 80%;
   height: 30%;
-  background-color: rgb(195, 66, 66);
+  background-color: rgb(237, 233, 233);
+  margin: 1%;
 }
+.side-fries img {
+  width: 100%;
+}
+.side-fries h5 {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.side-fries h2 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  padding: 5px;
+}
+
 .gol-fries {
   display: flex;
-  flex-direction: column;
+  justify-content: left;
+  margin: 3%;
   font-family: "Poppins", sans-serif;
 }
+
+.red {
+  color: red;
+}
+
+.side-fries button {
+  background-color: rgb(227, 48, 48);
+  color: white;
+  padding: 8px 10px;
+  font-weight: 600;
+  border: none;
+  margin-left: 40%;
+  margin-bottom: 2%;
+}
+
+span,
+.add:hover {
+  padding: 10px;
+  color: red;
+}
+
+.add:hover {
+  background-color: white;
+}
+
 
 }
