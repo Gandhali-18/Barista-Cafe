@@ -573,7 +573,7 @@ a:hover {
 
     color: white;
     margin-top: 2%;
-    font-size: 14px;
+    font-size: 12px;
 
     /* box-shadow: 3px 3px 0px 0px rgb(202, 199, 199); */
   }
@@ -597,11 +597,13 @@ a:hover {
 
   .home p {
     font-size: 18px;
-    margin-left: -2%;
+    margin-left: -3%;
     margin-top: 50px;
     font-style: italic;
+
   }
   .home h1 {
+    margin-left:5%;
     margin-top: 15%;
     width: 90%;
   }

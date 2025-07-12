@@ -2,7 +2,8 @@
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -11,8 +12,8 @@ html, body {
   display: flex;
   color: orange;
 }
-iframe{
-  width:60vw;
+iframe {
+  width: 60vw;
   height: 90vh;
 }
 .contact-details {
@@ -35,13 +36,7 @@ iframe{
   height: 7%;
   color: black;
   margin-left: 2%;
-
 }
-.bi-telephone-fill h4{
-  font-family:"Poppins", sans-serif;
-
-}
-
 .bi-envelope-fill {
   width: 7%;
   height: 7%;
@@ -50,31 +45,27 @@ iframe{
   white-space: nowrap;
   cursor: pointer;
 }
-.bi-envelope-fill  h4{
-    font-family:"Poppins", sans-serif;
 
-}
 .bi-envelope-fill:hover {
   color: rgb(230, 114, 114);
 }
 
-label{
+label {
   color: black;
 }
-input{
+input {
   display: block;
   width: 35vw;
   height: 5%;
-  border:1px solid orange;
+  border: 1px solid orange;
   border-radius: 15px;
   margin-bottom: 2%;
 }
 input:focus {
   border-color: brown;
-  outline: none;     
+  outline: none;
 }
-#ok
-{
+#ok {
   width: 8vw;
   height: 5%;
   display: block;
@@ -83,4 +74,47 @@ input:focus {
   color: white;
   font-size: 20px;
   border-radius: 25px;
+}
+
+@media screen and (max-width: 600px) {
+  .component {
+    display: flex;
+    flex-direction: column;
+    color: orange;
+  }
+  iframe {
+    width: 100vw;
+    height: 60vh;
+  }
+  .contact-details {
+    margin-left: 2%;
+  }
+  label {
+    color: black;
+    margin-left: 2%;
+  }
+  input {
+    display: block;
+    width: 75vw;
+    height:3vh;
+    border: 1px solid orange;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+  }
+  input:focus {
+    border-color: brown;
+    outline: none;
+  }
+  #ok {
+    width: 20vw;
+    height:3vh;
+    display: block;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-left: 2%;
+  }
 }
