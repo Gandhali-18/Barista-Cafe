@@ -52,4 +52,60 @@ span,
   background-color: white;
 }
 
+/* Mobile Devices: Up to 600px */
+@media screen and (max-width: 600px) {
+  .Chic {
+    width: 80%;
+    height: 30%;
+    background-color: rgb(237, 233, 233);
+    margin-left: 10%;
+  }
+  .Chic img {
+    width: 100%;
+  }
+  .Chic h5 {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
 
+  .Chic h2 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    padding: 5px;
+  }
+
+  .Non {
+    display: flex;
+    justify-content: left;
+    margin-top: 15%;
+
+    font-family: "Poppins", sans-serif;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .Chic button {
+    background-color: rgb(227, 48, 48);
+    color: white;
+    padding: 8px 10px;
+    font-weight: 600;
+    border: none;
+    margin-left: 40%;
+    margin-bottom: 2%;
+  }
+
+  span,
+  .add:hover {
+    padding: 10px;
+    color: red;
+  }
+
+  .add:hover {
+    background-color: white;
+  }
+}

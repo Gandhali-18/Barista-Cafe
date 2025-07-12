@@ -6,7 +6,7 @@
 body {
   background-color: whitesmoke;
   overflow-x: hidden;
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -36,7 +36,8 @@ html {
   padding: 10px 20px;
   font-size: 1.2rem;
   background-color: white;
-  border-radius: 10%;
+  border-radius: 15px;
+
   margin: 5px;
 }
 .MButton button:hover {
@@ -44,12 +45,10 @@ html {
   color: white;
 }
 
-
 .MFood1 {
   width: 20%;
   height: 30%;
   background-color: rgb(237, 233, 233);
-
 }
 .MFood1 img {
   width: 100%;
@@ -68,135 +67,29 @@ html {
   padding: 5px;
 }
 
-
-.Food1{
-    display: flex;
-    margin-left:1%;
-    justify-content: space-around;
-    padding:15px;
-}
-
-.red{
-    color: red;
-}
-
-.MFood1 button{
-    background-color: rgb(227, 48, 48);
-    color: white;
-    padding: 8px 10px;
-    font-weight: 600;
-    border: none;
-    margin-left:40%;
-    margin-bottom: 2%;
- 
-}
-
-span,.add:hover{
-  padding:10px;
+.red {
   color: red;
 }
 
-.add:hover{
-  background-color: white;
+.MFood1 button {
+  background-color: rgb(227, 48, 48);
+  color: white;
+  padding: 8px 10px;
+  font-weight: 600;
+  border: none;
+  margin-left: 40%;
+  margin-bottom: 2%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+span,
+.add:hover {
+  padding: 10px;
+  color: red;
+}
+
+.add:hover {
+  background-color: white;
+}
 
 .MFood2 {
   width: 20%;
@@ -220,22 +113,155 @@ span,.add:hover{
   padding: 5px;
 }
 
-.Food2{
-    display: flex;
-    margin-left:1%;
-    justify-content: space-around;
-    padding:15px;
+.Food2 {
+  display: flex;
+  margin-left: 1%;
+  justify-content: space-around;
+  padding: 15px;
 }
 
-.MFood2 button{
+.MFood2 button {
+  background-color: rgb(227, 48, 48);
+  color: white;
+  padding: 8px 10px;
+  font-weight: 600;
+  border: none;
+  margin-left: 40%;
+  margin-bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Devices: Up to 600px */
+@media screen and (max-width: 600px) {
+  .Menu_Div h1 {
+    margin-top: 12%;
+    color: brown;
+    text-align: center;
+  }
+
+  .Menu_Div h4 {
+    color: brown;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 300;
+  }
+  .MButton {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+  }
+  .MButton button {
+    color: red;
+    border: 1px solid red;
+    padding: 5px 5px;
+    font-size: 0.8rem;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+  }
+  .MButton button:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .MFood1 {
+    width: 80%;
+    height: 25%;
+    background-color: rgb(237, 233, 233);
+    margin-left: 9%;
+    margin-bottom: 5%;
+  }
+  .MFood1 img {
+    width: 100%;
+  }
+  .MFood1 h5 {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .MFood1 h2 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    padding: 5px;
+  }
+
+  .red {
+    color: red;
+  }
+
+  .MFood1 button {
     background-color: rgb(227, 48, 48);
     color: white;
     padding: 8px 10px;
     font-weight: 600;
     border: none;
-    margin-left:40%;
+    margin-left: 40%;
     margin-bottom: 2%;
- 
+  }
+
+  span,
+  .add:hover {
+    padding: 10px;
+    color: red;
+  }
+
+  .add:hover {
+    background-color: white;
+  }
+
+  .Food2 {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  .MFood2 {
+    width: 80%;
+    height: 25%;
+    background-color: rgb(237, 233, 233);
+    margin-left: 9%;
+    margin-bottom: 5%;
+  }
+  .MFood2 img {
+    width: 100%;
+  }
+  .MFood2 h5 {
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+
+  .MFood2 h2 {
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    font-size: larger;
+    padding: 5px;
+  }
+
+  .MFood2 button {
+    background-color: rgb(227, 48, 48);
+    color: white;
+    padding: 8px 10px;
+    font-weight: 600;
+    border: none;
+    margin-left: 40%;
+    margin-bottom: 2%;
+  }
 }
-
-

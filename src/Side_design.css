@@ -53,3 +53,23 @@ span,
 }
 
 
+
+
+
+
+
+
+/* Mobile Devices: Up to 600px */
+@media screen and (max-width: 600px) {
+  .side-fries {
+  width: 80%;
+  height: 30%;
+  background-color: rgb(195, 66, 66);
+}
+.gol-fries {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+
+}

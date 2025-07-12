@@ -54,3 +54,48 @@ span,
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Devices: Up to 600px */
+@media screen and (max-width: 600px) {
+  .veg {
+  width: 80%;
+  height: 30%;
+  background-color: rgb(237, 233, 233);
+  margin-left: 10%;
+  margin-bottom: 5%;;
+}
+.veg img {
+  width: 100%;
+}
+.veg h5 {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.veg h2 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  font-size: larger;
+  padding: 5px;
+}
+
+.burger {
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15%;
+}
+}

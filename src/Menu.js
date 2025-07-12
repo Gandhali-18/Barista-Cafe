@@ -20,7 +20,7 @@ const Menu = () => {
         <button>All</button>
         <button onClick={() => navigate("/burgers")}>Burger</button>
         <button onClick={() => navigate("/chicken")}>Chicken</button>
-        <button onClick={() => navigate("/side")}>Sides</button>
+        <button onClick={() => navigate("/side")} >Sides</button>
         <button onClick={()=> navigate("/salad")}>Salads</button>
         <button  onClick={()=> navigate("/drink")}>Drinks</button>
         <button onClick={()=> navigate("/dessert")}>Desserts</button>
